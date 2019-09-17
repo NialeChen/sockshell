@@ -16,10 +16,10 @@ sudo echo "\"server\":\"104.238.164.37\"," >> /etc/shadowsocks.json
 sudo echo "\"local_address\":\"127.0.0.1\"," >> /etc/shadowsocks.json
 sudo echo "\"local_port\":1080," >> /etc/shadowsocks.json
 sudo echo "\"port_password\": {" >> /etc/shadowsocks.json
-sudo echo "\"2025\":\"22223333a\"," >> /etc/shadowsocks.json
-sudo echo "\"2026\":\"22223333b\"," >> /etc/shadowsocks.json
-sudo echo "\"2027\":\"22223333c\"," >> /etc/shadowsocks.json
-sudo echo "\"2028\":\"22223333d\"" >> /etc/shadowsocks.json
+sudo echo "\"2035\":\"22223333a\"," >> /etc/shadowsocks.json
+sudo echo "\"2036\":\"22223333b\"," >> /etc/shadowsocks.json
+sudo echo "\"2037\":\"22223333c\"," >> /etc/shadowsocks.json
+sudo echo "\"2038\":\"22223333d\"" >> /etc/shadowsocks.json
 sudo echo "}," >> /etc/shadowsocks.json
 sudo echo "\"timeout\":300," >> /etc/shadowsocks.json
 sudo echo "\"method\":\"aes-256-cfb\"," >> /etc/shadowsocks.json
