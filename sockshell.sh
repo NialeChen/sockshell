@@ -12,7 +12,7 @@ sudo apt-get install -y python-pip
 sudo python2.7 get-pip.py
 sudo pip install shadowsocks
 sudo echo "{" > /etc/shadowsocks.json
-sudo echo "\"server\":\"155.138.230.62\"," >> /etc/shadowsocks.json
+sudo echo "\"server\":\"66.42.93.131\"," >> /etc/shadowsocks.json
 sudo echo "\"local_address\":\"127.0.0.1\"," >> /etc/shadowsocks.json
 sudo echo "\"local_port\":1080," >> /etc/shadowsocks.json
 sudo echo "\"port_password\": {" >> /etc/shadowsocks.json
