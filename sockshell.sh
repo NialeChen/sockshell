@@ -12,14 +12,14 @@ sudo apt-get install -y python-pip
 sudo python2.7 get-pip.py
 sudo pip install shadowsocks
 sudo echo "{" > /etc/shadowsocks.json
-sudo echo "\"server\":\"45.76.231.78\"," >> /etc/shadowsocks.json
+sudo echo "\"server\":\"107.191.47.53\"," >> /etc/shadowsocks.json
 sudo echo "\"local_address\":\"127.0.0.1\"," >> /etc/shadowsocks.json
 sudo echo "\"local_port\":1080," >> /etc/shadowsocks.json
 sudo echo "\"port_password\": {" >> /etc/shadowsocks.json
-sudo echo "\"2570\":\"22223333a\"," >> /etc/shadowsocks.json
-sudo echo "\"2571\":\"22223333b\"," >> /etc/shadowsocks.json
-sudo echo "\"2572\":\"22223333c\"," >> /etc/shadowsocks.json
-sudo echo "\"2573\":\"22223333d\"" >> /etc/shadowsocks.json
+sudo echo "\"3570\":\"22223333a\"," >> /etc/shadowsocks.json
+sudo echo "\"3571\":\"22223333b\"," >> /etc/shadowsocks.json
+sudo echo "\"3572\":\"22223333c\"," >> /etc/shadowsocks.json
+sudo echo "\"3573\":\"22223333d\"" >> /etc/shadowsocks.json
 sudo echo "}," >> /etc/shadowsocks.json
 sudo echo "\"timeout\":300," >> /etc/shadowsocks.json
 sudo echo "\"method\":\"aes-256-cfb\"," >> /etc/shadowsocks.json
