@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt install -y python3-pip
-sudo pip3 install -y https://github.com/shadowsocks/shadowsocks/archive/master.zip
+sudo pip3 install https://github.com/shadowsocks/shadowsocks/archive/master.zip
 sudo ssserver --version
 sudo echo "{" > /etc/shadowsocks.json
 sudo echo "\"server\":\"136.244.104.167\"," >> /etc/shadowsocks.json
